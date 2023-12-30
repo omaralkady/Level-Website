@@ -74,12 +74,16 @@ justify-content: center;
     gap: var(--size-half);
     padding: var(--padding-primary) var(--padding-double);
 }
-
 .form-group {
     flex: 1 25%; 
     position: relative;
     display: flex;
     align-items: center;
+}
+@media (max-width : 561px){
+    .form-group{
+        flex: 1 35%;
+    } 
 }
 .form-group .form-control {
     border-radius: 0;
