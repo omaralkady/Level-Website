@@ -82,7 +82,7 @@ justify-content: center;
 }
 @media (max-width : 561px){
     .form-group{
-        flex: 1 35%;
+        flex: 1 39%;
     } 
 }
 .form-group .form-control {
